@@ -1,8 +1,6 @@
-import os
-from pathlib import Path
+def add(a,b):
+    sum = a+b
+    print(f"the result is {sum}")
 
-file_path = "Feranmi/rekky/go"
-
-windows_version = Path(file_path)
-
-print(windows_version)
+result = add(5,4)
+print(result)
